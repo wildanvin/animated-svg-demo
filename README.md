@@ -6,4 +6,4 @@ I learned CSS animations using [this](https://youtu.be/UTHgr6NLeEw) tutorial by 
 
 ## Usage
 
-`git clone` then open the `education.html` file in a browser
+`git clone` then open the `index.html` file in a browser

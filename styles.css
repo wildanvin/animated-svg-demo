@@ -1,0 +1,285 @@
+svg {
+  cursor: pointer;
+}
+body {
+  margin: 0%;
+}
+
+#container {
+  width: 567px;
+  height: 567px;
+  position: relative;
+  background: yellow;
+}
+
+#learn {
+  animation: appear 4s;
+  animation-fill-mode: forwards;
+}
+
+#text-art {
+  position: absolute;
+  top: 85px;
+  left: 400px;
+  color: rgb(25, 113, 150);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  animation: zoom-in-zoom-out 4s;
+  animation-delay: 1s;
+}
+
+#ok-2,
+#ok-6 {
+  animation: appear 5s;
+  animation-delay: 5s;
+}
+
+#art-ball-1 {
+  animation: art-ball-1 5s;
+  animation-fill-mode: forwards;
+  animation-delay: 7s;
+}
+
+#art-ball-2 {
+  animation: art-ball-2 5s;
+  animation-fill-mode: forwards;
+  animation-delay: 7s;
+}
+
+#rect-gdp-2,
+#rect-sal-2,
+#rect-prod-2,
+#rect-qol-2 {
+  animation: move-rect-2 4s;
+  animation-fill-mode: forwards;
+  animation-delay: 11s;
+}
+
+#text-math {
+  position: absolute;
+  top: 115px;
+  left: 440px;
+  color: rgb(225, 53, 100);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  animation: zoom-in-zoom-out 4s;
+  animation-delay: 12s;
+}
+#ok-1,
+#ok-5 {
+  animation: appear 5s;
+  animation-delay: 15s;
+}
+
+#math-ball-1 {
+  animation: math-ball-1 5s;
+  animation-fill-mode: forwards;
+  animation-delay: 17s;
+}
+
+#math-ball-2 {
+  animation: math-ball-2 5s;
+  animation-fill-mode: forwards;
+  animation-delay: 17s;
+}
+
+#rect-gdp-3,
+#rect-sal-3,
+#rect-prod-3,
+#rect-qol-3 {
+  animation: move-rect-3 5s;
+  animation-fill-mode: forwards;
+  animation-delay: 21s;
+}
+
+#text-econ {
+  position: absolute;
+  top: 150px;
+  left: 380px;
+  color: rgb(162, 0, 0);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  animation: zoom-in-zoom-out 4s;
+  animation-delay: 25s;
+}
+
+#ok-4,
+#ok-7 {
+  animation: appear 5s;
+  animation-delay: 28s;
+}
+
+#econ-ball-1 {
+  animation: econ-ball-1 5s;
+  animation-fill-mode: forwards;
+  animation-delay: 31s;
+}
+
+#econ-ball-2 {
+  animation: econ-ball-2 5s;
+  animation-fill-mode: forwards;
+  animation-delay: 31s;
+}
+
+#rect-gdp-4,
+#rect-sal-4,
+#rect-prod-4,
+#rect-qol-4 {
+  animation: move-rect-4 5s;
+  animation-fill-mode: forwards;
+  animation-delay: 35s;
+}
+
+#text-lang {
+  position: absolute;
+  top: 180px;
+  left: 390px;
+  color: rgb(132, 21, 187);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  animation: zoom-in-zoom-out 4s;
+  animation-delay: 40s;
+}
+
+#ok-3,
+#ok-8 {
+  animation: appear 5s;
+  animation-delay: 43s;
+}
+
+#lang-ball-1 {
+  animation: lang-ball-1 5s;
+  animation-fill-mode: forwards;
+  animation-delay: 47s;
+}
+
+#lang-ball-2 {
+  animation: lang-ball-2 5s;
+  animation-fill-mode: forwards;
+  animation-delay: 47s;
+}
+
+#rect-gdp-5,
+#rect-sal-5,
+#rect-prod-5,
+#rect-qol-5 {
+  animation: move-rect-5 5s;
+  animation-fill-mode: forwards;
+  animation-delay: 50s;
+}
+
+#ok-1,
+#ok-2,
+#ok-3,
+#ok-4,
+#ok-5,
+#ok-6,
+#ok-7,
+#ok-8,
+#learn {
+  /* ok 1 */
+  opacity: 0;
+}
+
+@keyframes appear {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.3, 1.3);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes art-ball-1 {
+  /* goes to person 2 */
+  to {
+    transform: translate(-56px, -22px);
+  }
+}
+
+@keyframes art-ball-2 {
+  /* goes to person 6 */
+
+  to {
+    transform: translate(-69px, 19px);
+  }
+}
+
+@keyframes math-ball-1 {
+  /* goes to person 1 */
+  to {
+    transform: translate(-69px, -22px);
+  }
+}
+
+@keyframes math-ball-2 {
+  /* goes to person 5 */
+  to {
+    transform: translate(-50px, -2px);
+  }
+}
+
+@keyframes econ-ball-1 {
+  /* goes to person 4 */
+  to {
+    transform: translate(-63px, -2px);
+  }
+}
+
+@keyframes econ-ball-2 {
+  /* goes to person 7 */
+  to {
+    transform: translate(-56px, 19px);
+  }
+}
+
+@keyframes lang-ball-1 {
+  /* goes to person 3 */
+  to {
+    transform: translate(-43px, -22px);
+  }
+}
+
+@keyframes lang-ball-2 {
+  /* goes to person 8 */
+  to {
+    transform: translate(-43px, 19px);
+  }
+}
+
+@keyframes move-rect-2 {
+  to {
+    transform: translateY(-6.5px);
+  }
+}
+
+@keyframes move-rect-3 {
+  to {
+    transform: translateY(-13px);
+  }
+}
+
+@keyframes move-rect-4 {
+  to {
+    transform: translateY(-19.5px);
+  }
+}
+
+@keyframes move-rect-5 {
+  to {
+    transform: translateY(-26px);
+  }
+}

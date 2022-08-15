@@ -7,3 +7,7 @@ I learned CSS animations using [this](https://youtu.be/UTHgr6NLeEw) tutorial by 
 ## Usage
 
 `git clone` then open the `index.html` file in a browser
+
+## Online
+
+You can watch the animation in this [link](https://wildanvin.github.io/animated-svg-edu/) too.
